@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML 1st Project</title>
+</head>
+<body>
+   ?
+<h4> Regestration Form</h4>
+    <form action="action.php"> 
+        <input type="text" placeholder="User Name ">
+        <input type="password" placeholder="Password">
+        <br>
+        <h5>Select Your Class</h5>
+        <lable for="101">
+            <input type="radio" value="Class 10 " name="class" id="101"> Class 10
+            <br>
+        </lable> <lable for="102">
+            <input type="radio" value="Class 11 " name="class" id="102"> Class 11
+        </lable>
+        <br>
+        <h5>Select Your Subject</h5>
+        <lable for="math">
+            <input type="checkbox" value="Phy" name="subject" id="102"> Phy
+            <br>
+            <input type="checkbox" value="Urdu" name="subject" id="103"> Urdu
+            <br>
+            <input type="checkbox" value="Chem" name="subject" id="104"> Chem
+            <br>
+            <input type="checkbox" value="math" name="subject" id="105"> Math
+        </lable>
+        <br>
+        <h4> Select Yoy City</h4>
+    <select name="City" id="101">
+    <option value="Lahore"> Lahore</option>
+    <option value="Sheikhupura"> Sheikhupura</option>
+    <option value="Multan"> Multan</option>
+    <option value="Karachi"> Karachi</option>
+    <option value="Sanghla"> Sanghla</option>
+    </select>
+    <br>
+<h4> Give Your Feedback</h4>
+    <textarea name="feedback" id="101" placeholder="Please give me your feedback"></textarea>
+    </textarea>
+    <br>
+    <input type="submit" value="submit">
+    </form>
+</body>
+</html>
